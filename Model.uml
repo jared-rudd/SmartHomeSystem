@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:HVACProfile="http://SmartHomeSystem.Profile/schemas/HVACProfile/_l4lCwPYmEe-Y0MiFV4xAmA/2" xmlns:LightingProfile="http://SmartHomeSystem.Profile/schemas/LightingProfile/_l4jNkPYmEe-Y0MiFV4xAmA/4" xmlns:SecurityProfile="http://SmartHomeSystem.Profile/schemas/SecurityProfile/_l4aqsPYmEe-Y0MiFV4xAmA/6" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://SmartHomeSystem.Profile/schemas/HVACProfile/_l4lCwPYmEe-Y0MiFV4xAmA/2 Profile.profile.uml#_l4lp0PYmEe-Y0MiFV4xAmA http://SmartHomeSystem.Profile/schemas/LightingProfile/_l4jNkPYmEe-Y0MiFV4xAmA/4 Profile.profile.uml#_l4jNkfYmEe-Y0MiFV4xAmA http://SmartHomeSystem.Profile/schemas/SecurityProfile/_l4aqsPYmEe-Y0MiFV4xAmA/6 Profile.profile.uml#_l4eVEPYmEe-Y0MiFV4xAmA">
+  <uml:Model xmi:id="_s6gm8PWCEe-uEJB0JDd21g" name="Model">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_s-DDJPWCEe-uEJB0JDd21g">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_s-MNEPWCEe-uEJB0JDd21g">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Sum4wPWYEe-wqbx2bGosLg">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://OCL_PROFILES/OCLforUML.profile.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BZvEMPWDEe-uEJB0JDd21g" name="HVACController" visibility="public">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_zYMuwPYUEe-fe4Bxe4fP7w" name="tempTriggered">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_zYMuwfYUEe-fe4Bxe4fP7w" name="TRIGGERED_VALUE"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_7dmvoPYUEe-fe4Bxe4fP7w" name="tempResponseTime">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_7dmvofYUEe-fe4Bxe4fP7w" name="TIME_VALUE" value="100"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_9-XLQPYLEe-fe4Bxe4fP7w" name="SmartHomeSystem">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_UY2CAPYREe-fe4Bxe4fP7w" name="status">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_ZkMFgPYREe-fe4Bxe4fP7w" name="STATUS_VALUE"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_DpMAEPYMEe-fe4Bxe4fP7w" name="SecuritySystem" visibility="public">
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_lR5tAPYVEe-fe4Bxe4fP7w" name="ArmDisarmLogicConstraint">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_lR8JQPYVEe-fe4Bxe4fP7w" name="constraintSpec">
+          <language>OCL</language>
+          <body>if self.ownedAttribute->select(a | a.name = 'armed')->first().defaultValue.oclAsType(UML::LiteralBoolean).value = true 
+then 
+self.ownedAttribute->select(a | a.name = 'alarmTriggered')->first().defaultValue.oclAsType(UML::LiteralBoolean).value = false 
+else true endif</body>
+        </specification>
+      </ownedRule>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_mXlisPYVEe-fe4Bxe4fP7w" name="AlarmTriggerConstraint">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_mXmw0PYVEe-fe4Bxe4fP7w" name="constraintSpec">
+          <language>OCL</language>
+          <body>if self.ownedAttribute->select(a | a.name = 'armed')->first().defaultValue.oclAsType(UML::LiteralBoolean).value = true 
+then self.ownedAttribute->select(a | a.name = 'alarmTriggered')->first().defaultValue.oclAsType(UML::LiteralBoolean).value = true
+ else true endif</body>
+        </specification>
+      </ownedRule>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_smzeAPYVEe-fe4Bxe4fP7w" name="AutoLockConstraint">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_sm6LsPYVEe-fe4Bxe4fP7w" name="constraintSpec">
+          <language>OCL</language>
+          <body>if self.ownedAttribute->select(a | a.name = 'armed')->first().defaultValue.oclAsType(UML::LiteralBoolean).value = true 
+then self.ownedAttribute->select(a | a.name = 'isLocked')->first().defaultValue.oclAsType(UML::LiteralBoolean).value = true 
+ else true endif</body>
+        </specification>
+      </ownedRule>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_l_csUPYREe-fe4Bxe4fP7w" name="armed">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_l_dTYPYREe-fe4Bxe4fP7w" name="ARMED_VALUE" value="true"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_weOYUPYREe-fe4Bxe4fP7w" name="alarmTriggered">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_weOYUfYREe-fe4Bxe4fP7w" name="ALARM_TRIGGERED_VALUE"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_7f6kIPYREe-fe4Bxe4fP7w" name="alarmResponseTime">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_7f6kIfYREe-fe4Bxe4fP7w" name="RESPONSE_TIME_VALUE" value="50"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Ei3aEPYMEe-fe4Bxe4fP7w" name="HVACSystem">
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_wYiDMPYVEe-fe4Bxe4fP7w" name="FanIncreaseConstraint">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_wYyh4PYVEe-fe4Bxe4fP7w" name="constraintSpec">
+          <language>OCL</language>
+          <body>if self.ownedAttribute->select(a | a.name = 'currentTemp')->first().defaultValue.oclAsType(UML::LiteralInteger).value > 
+self.ownedAttribute->select(a | a.name = 'desiredTemp')->first().defaultValue.oclAsType(UML::LiteralInteger).value + 2
+then self.ownedAttribute->select(a | a.name = 'fanSpeed')->first().defaultValue.oclAsType(UML::LiteralInteger).value > 0
+else true endif</body>
+        </specification>
+      </ownedRule>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_xE8dQPYVEe-fe4Bxe4fP7w" name="FanSpeedLimitsConstraint">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_xE-ScPYVEe-fe4Bxe4fP7w" name="constraintSpec">
+          <language>OCL</language>
+          <body>self.ownedAttribute->select(a | a.name = 'fanSpeed')->first().defaultValue.oclAsType(UML::LiteralInteger).value >= 0 
+and
+self.ownedAttribute->select(a | a.name = 'fanSpeed')->first().defaultValue.oclAsType(UML::LiteralInteger).value &lt;= 3</body>
+        </specification>
+      </ownedRule>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_y1IogPYVEe-fe4Bxe4fP7w" name="MaintainRangeConstraint">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_y1P9QPYVEe-fe4Bxe4fP7w" name="constraintSpec">
+          <language>OCL</language>
+          <body>self.ownedAttribute->select(a | a.name = 'currentTemp')->first().defaultValue.oclAsType(UML::LiteralInteger).value >= 
+self.ownedAttribute->select(a | a.name = 'desiredTemp')->first().defaultValue.oclAsType(UML::LiteralInteger).value - 2 
+and
+self.ownedAttribute->select(a | a.name = 'currentTemp')->first().defaultValue.oclAsType(UML::LiteralInteger).value &lt;= 
+self.ownedAttribute->select(a | a.name = 'desiredTemp')->first().defaultValue.oclAsType(UML::LiteralInteger).value + 2</body>
+        </specification>
+      </ownedRule>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_iWhBUPYSEe-fe4Bxe4fP7w" name="currentTemp">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_iWhBUfYSEe-fe4Bxe4fP7w" name="TEMP_VALUE" value="26"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_qlAFsPYSEe-fe4Bxe4fP7w" name="desiredTemp">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_qlAFsfYSEe-fe4Bxe4fP7w" name="TEMP_VALUE" value="25"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1DQ0UPYSEe-fe4Bxe4fP7w" name="fanSpeed">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_1DQ0UfYSEe-fe4Bxe4fP7w" name="FAN_SPEED_VALUE" value="50"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_FG7JYPYMEe-fe4Bxe4fP7w" name="LightingSystem">
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_WRj6UPYVEe-fe4Bxe4fP7w" name="AutoShutOffConstraint">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_WSUIQPYVEe-fe4Bxe4fP7w" name="constraintSpec">
+          <language>OCL</language>
+          <body>self.ownedAttribute->select(a | a.name = 'autoShutOffTime')->first().defaultValue.oclAsType(UML::LiteralInteger).value >= 0</body>
+        </specification>
+      </ownedRule>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_h8srwPYVEe-fe4Bxe4fP7w" name="LightingResponseTimeConstraint">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_h81OoPYVEe-fe4Bxe4fP7w" name="constraintSpec">
+          <language>OCL</language>
+          <body> self.ownedAttribute->select(a | a.name = 'autoShutOffTime')->first().defaultValue.oclAsType(UML::LiteralInteger).value &lt;= 3600</body>
+        </specification>
+      </ownedRule>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_VNO24PYSEe-fe4Bxe4fP7w" name="autoShutOffTime">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_VNO24fYSEe-fe4Bxe4fP7w" name="SHUTOFF_TIME_VALUE" value="10"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LspgMPYMEe-fe4Bxe4fP7w" name="SmartLock">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_9F28UPYTEe-fe4Bxe4fP7w" name="isLocked">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_9F28UfYTEe-fe4Bxe4fP7w" name="LOCKED_VALUE"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OOE7IPYMEe-fe4Bxe4fP7w" name="TemperatureSensor">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_qo21gPYTEe-fe4Bxe4fP7w" name="ambientIntensity">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_qo4DoPYTEe-fe4Bxe4fP7w" name="INTENSITY_VALUE" value="35"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RqOR4PYMEe-fe4Bxe4fP7w" name="LightSensor">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dxUiYPYTEe-fe4Bxe4fP7w" name="ambientIntensity">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_dxVJcPYTEe-fe4Bxe4fP7w" name="INTENSITY_VALUE" value="25"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ugi88PYMEe-fe4Bxe4fP7w" name="MotionSensor">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1kLTkPYTEe-fe4Bxe4fP7w" name="motionDetected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_1kLTkfYTEe-fe4Bxe4fP7w" name="DETECTED_VALUE"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Idm74PYNEe-fe4Bxe4fP7w" name="LightController">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hZoQYPYUEe-fe4Bxe4fP7w" name="lightsTriggered">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_kUPAUPYUEe-fe4Bxe4fP7w" name="TRIGGERED_VALUE"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_sl8-4PYUEe-fe4Bxe4fP7w" name="lightsResponseTime">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_sl8-4fYUEe-fe4Bxe4fP7w" name="TIME_VALUE" value="100"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Vn6kkPYOEe-fe4Bxe4fP7w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_XwgowPYOEe-fe4Bxe4fP7w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Zpu0MPYOEe-fe4Bxe4fP7w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_tsGWUPYOEe-fe4Bxe4fP7w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_uvY_UPYOEe-fe4Bxe4fP7w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_w7uUAPYOEe-fe4Bxe4fP7w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_zqN6kPYOEe-fe4Bxe4fP7w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_3XgrsPYOEe-fe4Bxe4fP7w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_45NH8PYOEe-fe4Bxe4fP7w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IhwKIPYPEe-fe4Bxe4fP7w"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_s8sYQPWCEe-uEJB0JDd21g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s8wCoPWCEe-uEJB0JDd21g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_s-Am4PWCEe-uEJB0JDd21g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s-BN8PWCEe-uEJB0JDd21g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_s-B1APWCEe-uEJB0JDd21g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s-B1AfWCEe-uEJB0JDd21g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_s-B1AvWCEe-uEJB0JDd21g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s-B1A_WCEe-uEJB0JDd21g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_s-B1BPWCEe-uEJB0JDd21g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s-B1BfWCEe-uEJB0JDd21g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_s-CcEPWCEe-uEJB0JDd21g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s-CcEfWCEe-uEJB0JDd21g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_s-CcEvWCEe-uEJB0JDd21g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s-CcE_WCEe-uEJB0JDd21g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_s-CcFPWCEe-uEJB0JDd21g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s-CcFfWCEe-uEJB0JDd21g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_s-DDIPWCEe-uEJB0JDd21g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s-DDIfWCEe-uEJB0JDd21g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_s-DDIvWCEe-uEJB0JDd21g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s-DDI_WCEe-uEJB0JDd21g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_uclEIPYmEe-Y0MiFV4xAmA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uctnAPYmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="Profile.profile.uml#_l4eVEPYmEe-Y0MiFV4xAmA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="Profile.profile.uml#_ynKngPYhEe-fe4Bxe4fP7w"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ucyfgPYmEe-Y0MiFV4xAmA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ucztoPYmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="Profile.profile.uml#_l4jNkfYmEe-Y0MiFV4xAmA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="Profile.profile.uml#_4PpoEPYjEe-fe4Bxe4fP7w"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_uc0UsPYmEe-Y0MiFV4xAmA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uc0UsfYmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="Profile.profile.uml#_l4lp0PYmEe-Y0MiFV4xAmA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="Profile.profile.uml#_vGB7sPYkEe-fe4Bxe4fP7w"/>
+    </profileApplication>
+  </uml:Model>
+  <Blocks:Block xmi:id="_BZz8sPWDEe-uEJB0JDd21g" base_Class="_BZvEMPWDEe-uEJB0JDd21g"/>
+  <Blocks:Block xmi:id="_9_B5oPYLEe-fe4Bxe4fP7w" base_Class="_9-XLQPYLEe-fe4Bxe4fP7w"/>
+  <Blocks:Block xmi:id="_DpaCgPYMEe-fe4Bxe4fP7w" base_Class="_DpMAEPYMEe-fe4Bxe4fP7w"/>
+  <Blocks:Block xmi:id="_Ei_88PYMEe-fe4Bxe4fP7w" base_Class="_Ei3aEPYMEe-fe4Bxe4fP7w"/>
+  <Blocks:Block xmi:id="_FG-zwPYMEe-fe4Bxe4fP7w" base_Class="_FG7JYPYMEe-fe4Bxe4fP7w"/>
+  <Blocks:Block xmi:id="_Ls9CMPYMEe-fe4Bxe4fP7w" base_Class="_LspgMPYMEe-fe4Bxe4fP7w"/>
+  <Blocks:Block xmi:id="_OOsmMPYMEe-fe4Bxe4fP7w" base_Class="_OOE7IPYMEe-fe4Bxe4fP7w"/>
+  <Blocks:Block xmi:id="_RqU_kPYMEe-fe4Bxe4fP7w" base_Class="_RqOR4PYMEe-fe4Bxe4fP7w"/>
+  <Blocks:Block xmi:id="_ug_o4PYMEe-fe4Bxe4fP7w" base_Class="_ugi88PYMEe-fe4Bxe4fP7w"/>
+  <Blocks:Block xmi:id="_IeGEEPYNEe-fe4Bxe4fP7w" base_Class="_Idm74PYNEe-fe4Bxe4fP7w"/>
+  <SecurityProfile:SecuritySystem xmi:id="_xX2icPYmEe-Y0MiFV4xAmA" base_Class="_DpMAEPYMEe-fe4Bxe4fP7w"/>
+  <LightingProfile:LightingSystem xmi:id="_zGRzIPYmEe-Y0MiFV4xAmA" base_Class="_FG7JYPYMEe-fe4Bxe4fP7w"/>
+  <HVACProfile:HVACSystem xmi:id="_5iHOIPYmEe-Y0MiFV4xAmA" base_Class="_Ei3aEPYMEe-fe4Bxe4fP7w"/>
+</xmi:XMI>

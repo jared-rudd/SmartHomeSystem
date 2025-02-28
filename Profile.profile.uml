@@ -1,0 +1,1647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_mF3uIPX1Ee-iFPRLKo25pg" name="SmartHomeSystem" metaclassReference="_KvTzYPX6Ee-fe4Bxe4fP7w">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gbZCIPX2Ee-ZZ4wHMajqng" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hq6wUPX2Ee-ZZ4wHMajqng" source="PapyrusVersion">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hq6wUfX2Ee-ZZ4wHMajqng" key="Version" value="0.0.0"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hq6wUvX2Ee-ZZ4wHMajqng" key="Comment" value="&lt;undefined>"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hq6wU_X2Ee-ZZ4wHMajqng" key="Copyright" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hq6wVPX2Ee-ZZ4wHMajqng" key="Date" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hq6wVfX2Ee-ZZ4wHMajqng" key="Author" value="&lt;undefined>"/>
+    </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="_l4KMAPYmEe-Y0MiFV4xAmA" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_l4HvwPYmEe-Y0MiFV4xAmA/19" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4KzEPYmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_iRfEQPX6Ee-fe4Bxe4fP7w"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4mQ4PYmEe-Y0MiFV4xAmA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4mQ4fYmEe-Y0MiFV4xAmA" key="Version" value="0.0.20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4mQ4vYmEe-Y0MiFV4xAmA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4mQ4_YmEe-Y0MiFV4xAmA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4mQ5PYmEe-Y0MiFV4xAmA" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4mQ5fYmEe-Y0MiFV4xAmA" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_mRj_8fYlEe-fe4Bxe4fP7w" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_mRj_8PYlEe-fe4Bxe4fP7w/18" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRknAPYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_iRfEQPX6Ee-fe4Bxe4fP7w"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRr7yPYlEe-fe4Bxe4fP7w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRr7yfYlEe-fe4Bxe4fP7w" key="Version" value="0.0.19"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRr7yvYlEe-fe4Bxe4fP7w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRr7y_YlEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRr7zPYlEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRr7zfYlEe-fe4Bxe4fP7w" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_Wrr3QPYlEe-fe4Bxe4fP7w" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_WrrQMPYlEe-fe4Bxe4fP7w/17" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Wrr3QfYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_iRfEQPX6Ee-fe4Bxe4fP7w"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Wr0aJfYlEe-fe4Bxe4fP7w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr0aJvYlEe-fe4Bxe4fP7w" key="Version" value="0.0.18"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr0aJ_YlEe-fe4Bxe4fP7w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr0aKPYlEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr0aKfYlEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr0aKvYlEe-fe4Bxe4fP7w" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_ttI2IfYkEe-fe4Bxe4fP7w" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_ttI2IPYkEe-fe4Bxe4fP7w/16" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ttJdMPYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_iRfEQPX6Ee-fe4Bxe4fP7w"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ttZU6PYkEe-fe4Bxe4fP7w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttZU6fYkEe-fe4Bxe4fP7w" key="Version" value="0.0.17"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttZU6vYkEe-fe4Bxe4fP7w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttZU6_YkEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttZU7PYkEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttZU7fYkEe-fe4Bxe4fP7w" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_n2HYYPYkEe-fe4Bxe4fP7w" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_n2GxUPYkEe-fe4Bxe4fP7w/15" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n2HYYfYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_iRfEQPX6Ee-fe4Bxe4fP7w"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n2dWt_YkEe-fe4Bxe4fP7w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2dWuPYkEe-fe4Bxe4fP7w" key="Version" value="0.0.16"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2dWufYkEe-fe4Bxe4fP7w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2dWuvYkEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2dWu_YkEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2dWvPYkEe-fe4Bxe4fP7w" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_n8zrsPYjEe-fe4Bxe4fP7w" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_n8zEoPYjEe-fe4Bxe4fP7w/14" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n8zrsfYjEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_iRfEQPX6Ee-fe4Bxe4fP7w"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n89csPYjEe-fe4Bxe4fP7w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n89csfYjEe-fe4Bxe4fP7w" key="Version" value="0.0.15"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n89csvYjEe-fe4Bxe4fP7w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n89cs_YjEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n89ctPYjEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n89ctfYjEe-fe4Bxe4fP7w" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_c0jk4PYjEe-fe4Bxe4fP7w" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_c0i90PYjEe-fe4Bxe4fP7w/13" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c0jk4fYjEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_iRfEQPX6Ee-fe4Bxe4fP7w"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c0vLEPYjEe-fe4Bxe4fP7w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0vLEfYjEe-fe4Bxe4fP7w" key="Version" value="0.0.14"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0vLEvYjEe-fe4Bxe4fP7w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0vLE_YjEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0vLFPYjEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0vLFfYjEe-fe4Bxe4fP7w" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_a0FM0PYhEe-fe4Bxe4fP7w" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_a0ElwPYhEe-fe4Bxe4fP7w/12" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a0FM0fYhEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_iRfEQPX6Ee-fe4Bxe4fP7w"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a0SoMPYhEe-fe4Bxe4fP7w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a0SoMfYhEe-fe4Bxe4fP7w" key="Version" value="0.0.13"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a0SoMvYhEe-fe4Bxe4fP7w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a0SoM_YhEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a0SoNPYhEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a0SoNfYhEe-fe4Bxe4fP7w" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_hTFMMPYDEe-fe4Bxe4fP7w" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_hTElIPYDEe-fe4Bxe4fP7w/11" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hTFzQPYDEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_iRfEQPX6Ee-fe4Bxe4fP7w"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hTyW0PYDEe-fe4Bxe4fP7w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hTyW0fYDEe-fe4Bxe4fP7w" key="Version" value="0.0.12"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hTyW0vYDEe-fe4Bxe4fP7w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hTyW0_YDEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hTyW1PYDEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hTyW1fYDEe-fe4Bxe4fP7w" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_KVikUfYBEe-fe4Bxe4fP7w" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_KVikUPYBEe-fe4Bxe4fP7w/10" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KVikUvYBEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_iRfEQPX6Ee-fe4Bxe4fP7w"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KVrHMPYBEe-fe4Bxe4fP7w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KVrHMfYBEe-fe4Bxe4fP7w" key="Version" value="0.0.11"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KVrHMvYBEe-fe4Bxe4fP7w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KVrHM_YBEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KVrHNPYBEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KVrHNfYBEe-fe4Bxe4fP7w" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_T1Ak4PYAEe-fe4Bxe4fP7w" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_T0_90PYAEe-fe4Bxe4fP7w/9" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_T1Ak4fYAEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_iRfEQPX6Ee-fe4Bxe4fP7w"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_T1UG4PYAEe-fe4Bxe4fP7w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T1UG4fYAEe-fe4Bxe4fP7w" key="Version" value="0.0.10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T1UG4vYAEe-fe4Bxe4fP7w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T1UG4_YAEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T1UG5PYAEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T1UG5fYAEe-fe4Bxe4fP7w" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_q4gdEPX9Ee-fe4Bxe4fP7w" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_q4f2APX9Ee-fe4Bxe4fP7w/8" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q4hEIPX9Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_iRfEQPX6Ee-fe4Bxe4fP7w"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q5CokPX9Ee-fe4Bxe4fP7w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q5CokfX9Ee-fe4Bxe4fP7w" key="Version" value="0.0.9"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q5CokvX9Ee-fe4Bxe4fP7w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q5Cok_X9Ee-fe4Bxe4fP7w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q5ColPX9Ee-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q5ColfX9Ee-fe4Bxe4fP7w" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_UaoXQPX8Ee-fe4Bxe4fP7w" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_UanJIPX8Ee-fe4Bxe4fP7w/7" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UaoXQfX8Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_iRfEQPX6Ee-fe4Bxe4fP7w"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ua3n0PX8Ee-fe4Bxe4fP7w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ua3n0fX8Ee-fe4Bxe4fP7w" key="Version" value="0.0.8"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ua3n0vX8Ee-fe4Bxe4fP7w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ua3n0_X8Ee-fe4Bxe4fP7w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ua3n1PX8Ee-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ua3n1fX8Ee-fe4Bxe4fP7w" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_aNPEgPX7Ee-fe4Bxe4fP7w" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_aNN2YPX7Ee-fe4Bxe4fP7w/6" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aNPrkPX7Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_iRfEQPX6Ee-fe4Bxe4fP7w"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aNgKQPX7Ee-fe4Bxe4fP7w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aNgKQfX7Ee-fe4Bxe4fP7w" key="Version" value="0.0.7"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aNgKQvX7Ee-fe4Bxe4fP7w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aNgKQ_X7Ee-fe4Bxe4fP7w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aNgKRPX7Ee-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aNgKRfX7Ee-fe4Bxe4fP7w" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_LWsuEPX7Ee-fe4Bxe4fP7w" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_LWsHAPX7Ee-fe4Bxe4fP7w/5" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LWsuEfX7Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_iRfEQPX6Ee-fe4Bxe4fP7w"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LW5iYPX7Ee-fe4Bxe4fP7w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LW5iYfX7Ee-fe4Bxe4fP7w" key="Version" value="0.0.6"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LW5iYvX7Ee-fe4Bxe4fP7w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LW5iY_X7Ee-fe4Bxe4fP7w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LW5iZPX7Ee-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LW5iZfX7Ee-fe4Bxe4fP7w" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_7RZwYPX4Ee-fe4Bxe4fP7w" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_7RWGAPX4Ee-fe4Bxe4fP7w/4" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7RaXcPX4Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7RaXcfX4Ee-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7Ri6UPX4Ee-fe4Bxe4fP7w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7Ri6UfX4Ee-fe4Bxe4fP7w" key="Version" value="0.0.5"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7Ri6UvX4Ee-fe4Bxe4fP7w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7Ri6U_X4Ee-fe4Bxe4fP7w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7Ri6VPX4Ee-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7Ri6VfX4Ee-fe4Bxe4fP7w" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_7RaXcvX4Ee-fe4Bxe4fP7w" name="TemperatureSensor">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7RaXc_X4Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_7RaXdPX4Ee-fe4Bxe4fP7w" name="TempCheckConstraint">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7RaXdfX4Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7RaXdvX4Ee-fe4Bxe4fP7w" key="body" value="self.ownedAttribute->select(a | a.name = 'currentTemp')->first().defaultValue.oclAsType(UML::LiteralReal).value &#xA;> &#xA;self.ownedAttribute->select(a | a.name = 'maxTemp')->first().defaultValue.oclAsType(UML::LiteralReal).value"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_7RaXePX4Ee-fe4Bxe4fP7w" name="diagnostics">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7RaXefX4Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7RaXevX4Ee-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_7RaXfPX4Ee-fe4Bxe4fP7w" name="context">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7RaXffX4Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7RaXfvX4Ee-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:type="ecore:EGenericType" xmi:id="_7RaXf_X4Ee-fe4Bxe4fP7w">
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_7RaXgPX4Ee-fe4Bxe4fP7w">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_7RaXgfX4Ee-fe4Bxe4fP7w">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_7RaXgvX4Ee-fe4Bxe4fP7w" name="currentTemp" ordered="false" lowerBound="1" defaultValueLiteral="20">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_7RaXhPX4Ee-fe4Bxe4fP7w" name="maxTemp" ordered="false" lowerBound="1" defaultValueLiteral="10">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_IQeg0PX3Ee-ZZ4wHMajqng" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_IQcEkPX3Ee-ZZ4wHMajqng/3" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IQeg0fX3Ee-ZZ4wHMajqng" source="http://www.eclipse.org/emf/2002/Ecore">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IQfH4PX3Ee-ZZ4wHMajqng" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IQxbwPX3Ee-ZZ4wHMajqng" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IQxbwfX3Ee-ZZ4wHMajqng" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IQxbwvX3Ee-ZZ4wHMajqng" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IQxbw_X3Ee-ZZ4wHMajqng" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IQxbxPX3Ee-ZZ4wHMajqng" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IQxbxfX3Ee-ZZ4wHMajqng" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_IQfH4fX3Ee-ZZ4wHMajqng" name="TemperatureSensor">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IQfH4vX3Ee-ZZ4wHMajqng" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_IQfH4_X3Ee-ZZ4wHMajqng" name="TempCheckConstraint">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IQfH5PX3Ee-ZZ4wHMajqng" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IQfH5fX3Ee-ZZ4wHMajqng" key="body" value="self.ownedAttribute->select(a | a.name = 'currentTemp')->first().defaultValue.oclAsType(UML::LiteralReal).value &#xA;> &#xA;self.ownedAttribute->select(a | a.name = 'maxTemp')->first().defaultValue.oclAsType(UML::LiteralReal).value"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_IQfH5_X3Ee-ZZ4wHMajqng" name="diagnostics">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IQfH6PX3Ee-ZZ4wHMajqng" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IQfH6fX3Ee-ZZ4wHMajqng" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_IQfH6_X3Ee-ZZ4wHMajqng" name="context">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IQfH7PX3Ee-ZZ4wHMajqng" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IQfH7fX3Ee-ZZ4wHMajqng" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:type="ecore:EGenericType" xmi:id="_IQfH7vX3Ee-ZZ4wHMajqng">
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_IQfH7_X3Ee-ZZ4wHMajqng">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_IQfH8PX3Ee-ZZ4wHMajqng">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_IQfH8fX3Ee-ZZ4wHMajqng" name="currentTemp" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_IQfH8_X3Ee-ZZ4wHMajqng" name="maxTemp" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="__VbRYPX2Ee-ZZ4wHMajqng" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/__VY1IPX2Ee-ZZ4wHMajqng/2" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__VbRYfX2Ee-ZZ4wHMajqng" source="http://www.eclipse.org/emf/2002/Ecore">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__VbRYvX2Ee-ZZ4wHMajqng" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__VmQgPX2Ee-ZZ4wHMajqng" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__VmQgfX2Ee-ZZ4wHMajqng" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__VmQgvX2Ee-ZZ4wHMajqng" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__VmQg_X2Ee-ZZ4wHMajqng" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__VmQhPX2Ee-ZZ4wHMajqng" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__VmQhfX2Ee-ZZ4wHMajqng" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__VbRY_X2Ee-ZZ4wHMajqng" name="TemperatureSensor">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__VbRZPX2Ee-ZZ4wHMajqng" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="__VbRZfX2Ee-ZZ4wHMajqng" name="Constraint3">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__VbRZvX2Ee-ZZ4wHMajqng" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__VbRZ_X2Ee-ZZ4wHMajqng" key="body" value="true"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="__VbRafX2Ee-ZZ4wHMajqng" name="diagnostics">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__VbRavX2Ee-ZZ4wHMajqng" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__VbRa_X2Ee-ZZ4wHMajqng" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="__VbRbfX2Ee-ZZ4wHMajqng" name="context">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__VbRbvX2Ee-ZZ4wHMajqng" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__VbRb_X2Ee-ZZ4wHMajqng" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:type="ecore:EGenericType" xmi:id="__VbRcPX2Ee-ZZ4wHMajqng">
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="__VbRcfX2Ee-ZZ4wHMajqng">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="__VbRcvX2Ee-ZZ4wHMajqng">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="__Vb4cPX2Ee-ZZ4wHMajqng" name="currentTemp" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="__Vb4cvX2Ee-ZZ4wHMajqng" name="maxTemp" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_kn_lcPX2Ee-ZZ4wHMajqng" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_kn9JMPX2Ee-ZZ4wHMajqng/1" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_koSgYPX2Ee-ZZ4wHMajqng" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_koSgYfX2Ee-ZZ4wHMajqng" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_koSgYvX2Ee-ZZ4wHMajqng" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_koSgY_X2Ee-ZZ4wHMajqng" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_koSgZPX2Ee-ZZ4wHMajqng" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_koSgZfX2Ee-ZZ4wHMajqng" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_koAMgPX2Ee-ZZ4wHMajqng" name="TemperatureSensor">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_koAzkPX2Ee-ZZ4wHMajqng" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_gbcsgPX2Ee-ZZ4wHMajqng" name="SmartHomeSystem" nsURI="http:///schemas/SmartHomeSystem/_gbYbEPX2Ee-ZZ4wHMajqng/0" nsPrefix="SmartHomeSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gbd6oPX2Ee-ZZ4wHMajqng" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gbd6ofX2Ee-ZZ4wHMajqng" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gbd6ovX2Ee-ZZ4wHMajqng" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gbd6o_X2Ee-ZZ4wHMajqng" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gbd6pPX2Ee-ZZ4wHMajqng" key="Date" value="2025-02-28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gbd6pfX2Ee-ZZ4wHMajqng" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_KvTzYPX6Ee-fe4Bxe4fP7w" alias="Class">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_mHp20PX1Ee-iFPRLKo25pg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_mHthMPX1Ee-iFPRLKo25pg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Profile" xmi:id="_iRfEQPX6Ee-fe4Bxe4fP7w" name="Profile">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LWxmkPX7Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <contents xmi:type="ecore:EPackage" xmi:id="_l4TV8PYmEe-Y0MiFV4xAmA" name="Profile" nsURI="http://SmartHomeSystem/schemas/Profile/_l4Su4PYmEe-Y0MiFV4xAmA/14" nsPrefix="Profile">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4TV8fYmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_ynKngPYhEe-fe4Bxe4fP7w"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4m38PYmEe-Y0MiFV4xAmA" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4m38fYmEe-Y0MiFV4xAmA" key="Version" value="0.0.20"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4m38vYmEe-Y0MiFV4xAmA" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4m38_YmEe-Y0MiFV4xAmA" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4m39PYmEe-Y0MiFV4xAmA" key="Date" value="2025-02-28"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4m39fYmEe-Y0MiFV4xAmA" key="Author" value=""/>
+        </eAnnotations>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_mRmcMPYlEe-fe4Bxe4fP7w" name="Profile" nsURI="http://SmartHomeSystem/schemas/Profile/_mRl1IPYlEe-fe4Bxe4fP7w/13" nsPrefix="Profile">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRmcMfYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_ynKngPYhEe-fe4Bxe4fP7w"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRr7zvYlEe-fe4Bxe4fP7w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRr7z_YlEe-fe4Bxe4fP7w" key="Version" value="0.0.19"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRr70PYlEe-fe4Bxe4fP7w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRr70fYlEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRr70vYlEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRr70_YlEe-fe4Bxe4fP7w" key="Author" value=""/>
+        </eAnnotations>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_WrtscPYlEe-fe4Bxe4fP7w" name="Profile" nsURI="http://SmartHomeSystem/schemas/Profile/_WrtFYPYlEe-fe4Bxe4fP7w/12" nsPrefix="Profile">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WrtscfYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_ynKngPYhEe-fe4Bxe4fP7w"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Wr0aK_YlEe-fe4Bxe4fP7w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr0aLPYlEe-fe4Bxe4fP7w" key="Version" value="0.0.18"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr0aLfYlEe-fe4Bxe4fP7w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr0aLvYlEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr0aL_YlEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr0aMPYlEe-fe4Bxe4fP7w" key="Author" value=""/>
+        </eAnnotations>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_ttRZAfYkEe-fe4Bxe4fP7w" name="Profile" nsURI="http://SmartHomeSystem/schemas/Profile/_ttRZAPYkEe-fe4Bxe4fP7w/11" nsPrefix="Profile">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ttRZAvYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_ynKngPYhEe-fe4Bxe4fP7w"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ttZU7vYkEe-fe4Bxe4fP7w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttZU7_YkEe-fe4Bxe4fP7w" key="Version" value="0.0.17"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttZU8PYkEe-fe4Bxe4fP7w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttZU8fYkEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttZU8vYkEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttZU8_YkEe-fe4Bxe4fP7w" key="Author" value=""/>
+        </eAnnotations>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_n2TlofYkEe-fe4Bxe4fP7w" name="Profile" nsURI="http://SmartHomeSystem/schemas/Profile/_n2TloPYkEe-fe4Bxe4fP7w/10" nsPrefix="Profile">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n2TlovYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_ynKngPYhEe-fe4Bxe4fP7w"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n2dWvfYkEe-fe4Bxe4fP7w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2dWvvYkEe-fe4Bxe4fP7w" key="Version" value="0.0.16"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2dWv_YkEe-fe4Bxe4fP7w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2dWwPYkEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2dWwfYkEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2dWwvYkEe-fe4Bxe4fP7w" key="Author" value=""/>
+        </eAnnotations>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_n84kMfYjEe-fe4Bxe4fP7w" name="Profile" nsURI="http://SmartHomeSystem/schemas/Profile/_n84kMPYjEe-fe4Bxe4fP7w/9" nsPrefix="Profile">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n84kMvYjEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_ynKngPYhEe-fe4Bxe4fP7w"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n89ctvYjEe-fe4Bxe4fP7w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n89ct_YjEe-fe4Bxe4fP7w" key="Version" value="0.0.15"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n89cuPYjEe-fe4Bxe4fP7w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n89cufYjEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n89cuvYjEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n89cu_YjEe-fe4Bxe4fP7w" key="Author" value=""/>
+        </eAnnotations>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_c0n2UfYjEe-fe4Bxe4fP7w" name="Profile" nsURI="http://SmartHomeSystem/schemas/Profile/_c0n2UPYjEe-fe4Bxe4fP7w/8" nsPrefix="Profile">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c0n2UvYjEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_ynKngPYhEe-fe4Bxe4fP7w"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c0vLFvYjEe-fe4Bxe4fP7w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0vLF_YjEe-fe4Bxe4fP7w" key="Version" value="0.0.14"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0vLGPYjEe-fe4Bxe4fP7w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0vLGfYjEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0vLGvYjEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0vLG_YjEe-fe4Bxe4fP7w" key="Author" value=""/>
+        </eAnnotations>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_a0QzAPYhEe-fe4Bxe4fP7w" name="Profile" nsURI="http://SmartHomeSystem/schemas/Profile/_a0O90PYhEe-fe4Bxe4fP7w/7" nsPrefix="Profile">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a0QzAfYhEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a0QzAvYhEe-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a0VEcPYhEe-fe4Bxe4fP7w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a0VEcfYhEe-fe4Bxe4fP7w" key="Version" value="0.0.13"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a0VEcvYhEe-fe4Bxe4fP7w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a0VEc_YhEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a0VEdPYhEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a0VEdfYhEe-fe4Bxe4fP7w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_a0QzA_YhEe-fe4Bxe4fP7w" name="TemperatureSensor">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a0QzBPYhEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_a0QzBfYhEe-fe4Bxe4fP7w" name="TempCheckConstraint">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a0QzBvYhEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a0QzB_YhEe-fe4Bxe4fP7w" key="body" value="self.currentTemp &lt;= self.maxTemp"/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_a0QzCfYhEe-fe4Bxe4fP7w" name="diagnostics">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a0QzCvYhEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a0QzC_YhEe-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+            </eParameters>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_a0QzDfYhEe-fe4Bxe4fP7w" name="context">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a0QzDvYhEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a0QzD_YhEe-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+              </eAnnotations>
+              <eGenericType xmi:type="ecore:EGenericType" xmi:id="_a0QzEPYhEe-fe4Bxe4fP7w">
+                <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_a0QzEfYhEe-fe4Bxe4fP7w">
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                </eTypeArguments>
+                <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_a0QzEvYhEe-fe4Bxe4fP7w">
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                </eTypeArguments>
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+              </eGenericType>
+            </eParameters>
+          </eOperations>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_a0QzE_YhEe-fe4Bxe4fP7w" name="currentTemp" ordered="false" lowerBound="1" defaultValueLiteral="20">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_a0QzFfYhEe-fe4Bxe4fP7w" name="maxTemp" ordered="false" lowerBound="1" defaultValueLiteral="10">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_a0QzF_YhEe-fe4Bxe4fP7w" name="Class1" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_a0QzGfYhEe-fe4Bxe4fP7w" name="Class2" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_hTuscPYDEe-fe4Bxe4fP7w" name="Profile" nsURI="http://SmartHomeSystem/schemas/Profile/_hTteUPYDEe-fe4Bxe4fP7w/6" nsPrefix="Profile">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hTuscfYDEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hTuscvYDEe-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hT1aIfYDEe-fe4Bxe4fP7w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hT1aIvYDEe-fe4Bxe4fP7w" key="Version" value="0.0.12"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hT1aI_YDEe-fe4Bxe4fP7w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hT1aJPYDEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hT1aJfYDEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hT1aJvYDEe-fe4Bxe4fP7w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_hTusc_YDEe-fe4Bxe4fP7w" name="TemperatureSensor">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hTusdPYDEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_hTusdfYDEe-fe4Bxe4fP7w" name="TempCheckConstraint">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hTusdvYDEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hTusd_YDEe-fe4Bxe4fP7w" key="body" value="let logMessage = if self.currentTemp > self.maxTemp then&#xA;                         oclLog('FAIL CAPTURED')&#xA;                     else&#xA;                         oclLog('SUCCESS CAPTURED')&#xA;                     endif&#xA;    in&#xA;    self.currentTemp &lt;= self.maxTemp"/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_hTusefYDEe-fe4Bxe4fP7w" name="diagnostics">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hTusevYDEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hTuse_YDEe-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+            </eParameters>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_hTusffYDEe-fe4Bxe4fP7w" name="context">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hTusfvYDEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hTusf_YDEe-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+              </eAnnotations>
+              <eGenericType xmi:type="ecore:EGenericType" xmi:id="_hTusgPYDEe-fe4Bxe4fP7w">
+                <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_hTusgfYDEe-fe4Bxe4fP7w">
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                </eTypeArguments>
+                <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_hTusgvYDEe-fe4Bxe4fP7w">
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                </eTypeArguments>
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+              </eGenericType>
+            </eParameters>
+          </eOperations>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_hTusg_YDEe-fe4Bxe4fP7w" name="currentTemp" ordered="false" lowerBound="1" defaultValueLiteral="20">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_hTushfYDEe-fe4Bxe4fP7w" name="maxTemp" ordered="false" lowerBound="1" defaultValueLiteral="10">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_hTush_YDEe-fe4Bxe4fP7w" name="Class1" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_hTusifYDEe-fe4Bxe4fP7w" name="Class2" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_KVp5EPYBEe-fe4Bxe4fP7w" name="Profile" nsURI="http://SmartHomeSystem/schemas/Profile/_KVoD4PYBEe-fe4Bxe4fP7w/5" nsPrefix="Profile">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KVp5EfYBEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KVp5EvYBEe-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KVs8YfYBEe-fe4Bxe4fP7w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KVs8YvYBEe-fe4Bxe4fP7w" key="Version" value="0.0.11"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KVs8Y_YBEe-fe4Bxe4fP7w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KVs8ZPYBEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KVs8ZfYBEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KVs8ZvYBEe-fe4Bxe4fP7w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_KVp5E_YBEe-fe4Bxe4fP7w" name="TemperatureSensor">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KVp5FPYBEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_KVp5FfYBEe-fe4Bxe4fP7w" name="TempCheckConstraint">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KVp5FvYBEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KVp5F_YBEe-fe4Bxe4fP7w" key="body" value="currentTemp &lt;= maxTemp"/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_KVp5GfYBEe-fe4Bxe4fP7w" name="diagnostics">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KVp5GvYBEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KVp5G_YBEe-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+            </eParameters>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_KVp5HfYBEe-fe4Bxe4fP7w" name="context">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KVp5HvYBEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KVp5H_YBEe-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+              </eAnnotations>
+              <eGenericType xmi:type="ecore:EGenericType" xmi:id="_KVp5IPYBEe-fe4Bxe4fP7w">
+                <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_KVp5IfYBEe-fe4Bxe4fP7w">
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                </eTypeArguments>
+                <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_KVp5IvYBEe-fe4Bxe4fP7w">
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                </eTypeArguments>
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+              </eGenericType>
+            </eParameters>
+          </eOperations>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KVp5I_YBEe-fe4Bxe4fP7w" name="currentTemp" ordered="false" lowerBound="1" defaultValueLiteral="20">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KVp5JfYBEe-fe4Bxe4fP7w" name="maxTemp" ordered="false" lowerBound="1" defaultValueLiteral="10">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_KVp5J_YBEe-fe4Bxe4fP7w" name="Class1" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_KVp5KfYBEe-fe4Bxe4fP7w" name="Class2" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_T1RDkPYAEe-fe4Bxe4fP7w" name="Profile" nsURI="http://SmartHomeSystem/schemas/Profile/_T1OnUPYAEe-fe4Bxe4fP7w/4" nsPrefix="Profile">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_T1RDkfYAEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T1RDkvYAEe-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_T1V8EPYAEe-fe4Bxe4fP7w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T1V8EfYAEe-fe4Bxe4fP7w" key="Version" value="0.0.10"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T1V8EvYAEe-fe4Bxe4fP7w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T1V8E_YAEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T1V8FPYAEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T1V8FfYAEe-fe4Bxe4fP7w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_T1RDk_YAEe-fe4Bxe4fP7w" name="TemperatureSensor">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_T1RDlPYAEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_T1RDlfYAEe-fe4Bxe4fP7w" source="duplicates">
+            <contents xmi:type="ecore:EReference" xmi:id="_T1RDlvYAEe-fe4Bxe4fP7w" name="base_Class" ordered="false">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_T1RDl_YAEe-fe4Bxe4fP7w" source="redefines" references="_T1RDq_YAEe-fe4Bxe4fP7w"/>
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+            </contents>
+          </eAnnotations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_T1RDmfYAEe-fe4Bxe4fP7w" name="TempCheckConstraint">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_T1RDmvYAEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T1RDm_YAEe-fe4Bxe4fP7w" key="body" value="self.currentTemp &lt;= self.maxTempo"/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_T1RDnfYAEe-fe4Bxe4fP7w" name="diagnostics">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_T1RDnvYAEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T1RDn_YAEe-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+            </eParameters>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_T1RDofYAEe-fe4Bxe4fP7w" name="context">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_T1RDovYAEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T1RDo_YAEe-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+              </eAnnotations>
+              <eGenericType xmi:type="ecore:EGenericType" xmi:id="_T1RDpPYAEe-fe4Bxe4fP7w">
+                <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_T1RDpfYAEe-fe4Bxe4fP7w">
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                </eTypeArguments>
+                <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_T1RDpvYAEe-fe4Bxe4fP7w">
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                </eTypeArguments>
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+              </eGenericType>
+            </eParameters>
+          </eOperations>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_T1RDp_YAEe-fe4Bxe4fP7w" name="currentTemp" ordered="false" lowerBound="1" defaultValueLiteral="20">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_T1RDqfYAEe-fe4Bxe4fP7w" name="maxTemp" ordered="false" lowerBound="1" defaultValueLiteral="10">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_T1RDq_YAEe-fe4Bxe4fP7w" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_q46swPX9Ee-fe4Bxe4fP7w" name="Profile" nsURI="http://SmartHomeSystem/schemas/Profile/_q443kPX9Ee-fe4Bxe4fP7w/3" nsPrefix="Profile">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q46swfX9Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q46swvX9Ee-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q5FE0PX9Ee-fe4Bxe4fP7w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q5FE0fX9Ee-fe4Bxe4fP7w" key="Version" value="0.0.9"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q5FE0vX9Ee-fe4Bxe4fP7w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q5FE0_X9Ee-fe4Bxe4fP7w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q5FE1PX9Ee-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q5FE1fX9Ee-fe4Bxe4fP7w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_q46sw_X9Ee-fe4Bxe4fP7w" name="TemperatureSensor">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q46sxPX9Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q46sxfX9Ee-fe4Bxe4fP7w" source="duplicates">
+            <contents xmi:type="ecore:EReference" xmi:id="_q46sxvX9Ee-fe4Bxe4fP7w" name="base_Class" ordered="false">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q46sx_X9Ee-fe4Bxe4fP7w" source="redefines" references="_q46s2_X9Ee-fe4Bxe4fP7w"/>
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+            </contents>
+          </eAnnotations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_q46syfX9Ee-fe4Bxe4fP7w" name="TempCheckConstraint">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q46syvX9Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q46sy_X9Ee-fe4Bxe4fP7w" key="body" value="self.currentTemp &lt;= self.maxTemp"/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_q46szfX9Ee-fe4Bxe4fP7w" name="diagnostics">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q46szvX9Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q46sz_X9Ee-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+            </eParameters>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_q46s0fX9Ee-fe4Bxe4fP7w" name="context">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q46s0vX9Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q46s0_X9Ee-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+              </eAnnotations>
+              <eGenericType xmi:type="ecore:EGenericType" xmi:id="_q46s1PX9Ee-fe4Bxe4fP7w">
+                <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_q46s1fX9Ee-fe4Bxe4fP7w">
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                </eTypeArguments>
+                <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_q46s1vX9Ee-fe4Bxe4fP7w">
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                </eTypeArguments>
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+              </eGenericType>
+            </eParameters>
+          </eOperations>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q46s1_X9Ee-fe4Bxe4fP7w" name="currentTemp" ordered="false" lowerBound="1" defaultValueLiteral="20">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q46s2fX9Ee-fe4Bxe4fP7w" name="maxTemp" ordered="false" lowerBound="1" defaultValueLiteral="10">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_q46s2_X9Ee-fe4Bxe4fP7w" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_Ua1LkPX8Ee-fe4Bxe4fP7w" name="Profile" nsURI="http://SmartHomeSystem/schemas/Profile/_Uaz9cPX8Ee-fe4Bxe4fP7w/2" nsPrefix="Profile">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ua1LkfX8Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ua1LkvX8Ee-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ua6EEPX8Ee-fe4Bxe4fP7w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ua6EEfX8Ee-fe4Bxe4fP7w" key="Version" value="0.0.8"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ua6EEvX8Ee-fe4Bxe4fP7w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ua6EE_X8Ee-fe4Bxe4fP7w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ua6EFPX8Ee-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ua6EFfX8Ee-fe4Bxe4fP7w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Ua1Lk_X8Ee-fe4Bxe4fP7w" name="TemperatureSensor">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ua1LlPX8Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ua1LlfX8Ee-fe4Bxe4fP7w" source="duplicates">
+            <contents xmi:type="ecore:EReference" xmi:id="_Ua1LlvX8Ee-fe4Bxe4fP7w" name="base_Class" ordered="false">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ua1Ll_X8Ee-fe4Bxe4fP7w" source="redefines" references="_Ua1Lq_X8Ee-fe4Bxe4fP7w"/>
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+            </contents>
+          </eAnnotations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_Ua1LmfX8Ee-fe4Bxe4fP7w" name="TempCheckConstraint">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ua1LmvX8Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ua1Lm_X8Ee-fe4Bxe4fP7w" key="body" value="self.ownedAttribute->select(a | a.name = 'currentTemp')->first().defaultValue.oclAsType(UML::LiteralReal).value &#xA;> &#xA;self.ownedAttribute->select(a | a.name = 'maxTemp')->first().defaultValue.oclAsType(UML::LiteralReal).value"/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_Ua1LnfX8Ee-fe4Bxe4fP7w" name="diagnostics">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ua1LnvX8Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ua1Ln_X8Ee-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+            </eParameters>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_Ua1LofX8Ee-fe4Bxe4fP7w" name="context">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ua1LovX8Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ua1Lo_X8Ee-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+              </eAnnotations>
+              <eGenericType xmi:type="ecore:EGenericType" xmi:id="_Ua1LpPX8Ee-fe4Bxe4fP7w">
+                <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_Ua1LpfX8Ee-fe4Bxe4fP7w">
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                </eTypeArguments>
+                <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_Ua1LpvX8Ee-fe4Bxe4fP7w">
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                </eTypeArguments>
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+              </eGenericType>
+            </eParameters>
+          </eOperations>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Ua1Lp_X8Ee-fe4Bxe4fP7w" name="currentTemp" ordered="false" lowerBound="1" defaultValueLiteral="20">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Ua1LqfX8Ee-fe4Bxe4fP7w" name="maxTemp" ordered="false" lowerBound="1" defaultValueLiteral="10">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Ua1Lq_X8Ee-fe4Bxe4fP7w" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_aNcf4PX7Ee-fe4Bxe4fP7w" name="Profile" nsURI="http://SmartHomeSystem/schemas/Profile/_aNZckPX7Ee-fe4Bxe4fP7w/1" nsPrefix="Profile">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aNcf4fX7Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aNcf4vX7Ee-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aNmQ4PX7Ee-fe4Bxe4fP7w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aNmQ4fX7Ee-fe4Bxe4fP7w" key="Version" value="0.0.7"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aNmQ4vX7Ee-fe4Bxe4fP7w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aNmQ4_X7Ee-fe4Bxe4fP7w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aNmQ5PX7Ee-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aNmQ5fX7Ee-fe4Bxe4fP7w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_aNdG8PX7Ee-fe4Bxe4fP7w" name="TemperatureSensor">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aNdG8fX7Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_aNdG8vX7Ee-fe4Bxe4fP7w" name="TempCheckConstraint">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aNdG8_X7Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aNdG9PX7Ee-fe4Bxe4fP7w" key="body" value="self.ownedAttribute->select(a | a.name = 'currentTemp')->first().defaultValue.oclAsType(UML::LiteralReal).value &#xA;> &#xA;self.ownedAttribute->select(a | a.name = 'maxTemp')->first().defaultValue.oclAsType(UML::LiteralReal).value"/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_aNdG9vX7Ee-fe4Bxe4fP7w" name="diagnostics">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aNdG9_X7Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aNdG-PX7Ee-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+            </eParameters>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_aNdG-vX7Ee-fe4Bxe4fP7w" name="context">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aNdG-_X7Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aNdG_PX7Ee-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+              </eAnnotations>
+              <eGenericType xmi:type="ecore:EGenericType" xmi:id="_aNdG_fX7Ee-fe4Bxe4fP7w">
+                <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_aNdG_vX7Ee-fe4Bxe4fP7w">
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                </eTypeArguments>
+                <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_aNdG__X7Ee-fe4Bxe4fP7w">
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                </eTypeArguments>
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+              </eGenericType>
+            </eParameters>
+          </eOperations>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_aNdHAPX7Ee-fe4Bxe4fP7w" name="currentTemp" ordered="false" lowerBound="1" defaultValueLiteral="20">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_aNdHAvX7Ee-fe4Bxe4fP7w" name="maxTemp" ordered="false" lowerBound="1" defaultValueLiteral="10">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_aNdHBPX7Ee-fe4Bxe4fP7w" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_LW1Q8PX7Ee-fe4Bxe4fP7w" name="Profile" nsURI="http://SmartHomeSystem/schemas/Profile/_LWvxYPX7Ee-fe4Bxe4fP7w/0" nsPrefix="Profile">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LW1Q8fX7Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LW1Q8vX7Ee-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LW_pAPX7Ee-fe4Bxe4fP7w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LXAQEPX7Ee-fe4Bxe4fP7w" key="Version" value="0.0.6"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LXAQEfX7Ee-fe4Bxe4fP7w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LXAQEvX7Ee-fe4Bxe4fP7w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LXAQE_X7Ee-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LXAQFPX7Ee-fe4Bxe4fP7w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_LW1Q8_X7Ee-fe4Bxe4fP7w" name="TemperatureSensor">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LW1Q9PX7Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_LW1Q9fX7Ee-fe4Bxe4fP7w" name="TempCheckConstraint">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LW1Q9vX7Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LW1Q9_X7Ee-fe4Bxe4fP7w" key="body" value="self.ownedAttribute->select(a | a.name = 'currentTemp')->first().defaultValue.oclAsType(UML::LiteralReal).value &#xA;> &#xA;self.ownedAttribute->select(a | a.name = 'maxTemp')->first().defaultValue.oclAsType(UML::LiteralReal).value"/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_LW1Q-fX7Ee-fe4Bxe4fP7w" name="diagnostics">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LW1Q-vX7Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LW1Q-_X7Ee-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+            </eParameters>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_LW1Q_fX7Ee-fe4Bxe4fP7w" name="context">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LW1Q_vX7Ee-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LW1Q__X7Ee-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+              </eAnnotations>
+              <eGenericType xmi:type="ecore:EGenericType" xmi:id="_LW1RAPX7Ee-fe4Bxe4fP7w">
+                <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_LW1RAfX7Ee-fe4Bxe4fP7w">
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                </eTypeArguments>
+                <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_LW1RAvX7Ee-fe4Bxe4fP7w">
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                </eTypeArguments>
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+              </eGenericType>
+            </eParameters>
+          </eOperations>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_LW1RA_X7Ee-fe4Bxe4fP7w" name="currentTemp" ordered="false" lowerBound="1" defaultValueLiteral="20">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_LW1RBfX7Ee-fe4Bxe4fP7w" name="maxTemp" ordered="false" lowerBound="1" defaultValueLiteral="10">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_LW1RB_X7Ee-fe4Bxe4fP7w" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Profile" xmi:id="_ynKngPYhEe-fe4Bxe4fP7w" name="SecurityProfile" metaclassReference="_D_Nb8PYjEe-fe4Bxe4fP7w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c0sHwPYjEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <contents xmi:type="ecore:EPackage" xmi:id="_l4eVEPYmEe-Y0MiFV4xAmA" name="SecurityProfile" nsURI="http://SmartHomeSystem.Profile/schemas/SecurityProfile/_l4aqsPYmEe-Y0MiFV4xAmA/6" nsPrefix="SecurityProfile">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4eVEfYmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/emf/2002/Ecore">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4eVEvYmEe-Y0MiFV4xAmA" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4p7QPYmEe-Y0MiFV4xAmA" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4p7QfYmEe-Y0MiFV4xAmA" key="Version" value="0.0.20"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4p7QvYmEe-Y0MiFV4xAmA" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4p7Q_YmEe-Y0MiFV4xAmA" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4p7RPYmEe-Y0MiFV4xAmA" key="Date" value="2025-02-28"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4p7RfYmEe-Y0MiFV4xAmA" key="Author" value=""/>
+          </eAnnotations>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_l4eVE_YmEe-Y0MiFV4xAmA" name="SecuritySystem">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4eVFPYmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+            <eOperations xmi:type="ecore:EOperation" xmi:id="_l4eVFfYmEe-Y0MiFV4xAmA" name="ValidAlarmTimeConstraint">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4eVFvYmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4eVF_YmEe-Y0MiFV4xAmA" key="body" value="self.alarmResponseTime > 0"/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_l4eVGfYmEe-Y0MiFV4xAmA" name="diagnostics">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4eVGvYmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4eVG_YmEe-Y0MiFV4xAmA" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+                </eAnnotations>
+                <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+              </eParameters>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_l4eVHfYmEe-Y0MiFV4xAmA" name="context">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4eVHvYmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4eVH_YmEe-Y0MiFV4xAmA" key="documentation" value="The cache of context-specific information."/>
+                </eAnnotations>
+                <eGenericType xmi:type="ecore:EGenericType" xmi:id="_l4eVIPYmEe-Y0MiFV4xAmA">
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_l4eVIfYmEe-Y0MiFV4xAmA">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_l4eVIvYmEe-Y0MiFV4xAmA">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+                </eGenericType>
+              </eParameters>
+            </eOperations>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_l4eVI_YmEe-Y0MiFV4xAmA" name="armed" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_l4eVJfYmEe-Y0MiFV4xAmA" name="alarmedTriggered" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_l4eVJ_YmEe-Y0MiFV4xAmA" name="alarmResponseTime" ordered="false" lowerBound="1" defaultValueLiteral="50">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_l4eVKfYmEe-Y0MiFV4xAmA" name="isLocked" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_l4eVK_YmEe-Y0MiFV4xAmA" name="base_Class" ordered="false">
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+            </eStructuralFeatures>
+          </eClassifiers>
+        </contents>
+        <contents xmi:type="ecore:EPackage" xmi:id="_mRqGkPYlEe-fe4Bxe4fP7w" name="SecurityProfile" nsURI="http://SmartHomeSystem.Profile/schemas/SecurityProfile/_mRo4cPYlEe-fe4Bxe4fP7w/5" nsPrefix="SecurityProfile">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRqGkfYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRqGkvYlEe-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRsi0PYlEe-fe4Bxe4fP7w" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRsi0fYlEe-fe4Bxe4fP7w" key="Version" value="0.0.19"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRsi0vYlEe-fe4Bxe4fP7w" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRsi0_YlEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRsi1PYlEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRsi1fYlEe-fe4Bxe4fP7w" key="Author" value=""/>
+          </eAnnotations>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_mRqGk_YlEe-fe4Bxe4fP7w" name="SecuritySystem">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRqGlPYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+            <eOperations xmi:type="ecore:EOperation" xmi:id="_mRqGlfYlEe-fe4Bxe4fP7w" name="ValidAlarmTimeConstraint">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRqGlvYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRqGl_YlEe-fe4Bxe4fP7w" key="body" value="self.alarmResponseTime > 0"/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_mRqGmfYlEe-fe4Bxe4fP7w" name="diagnostics">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRqGmvYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRqGm_YlEe-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+                </eAnnotations>
+                <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+              </eParameters>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_mRqGnfYlEe-fe4Bxe4fP7w" name="context">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRqGnvYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRqGn_YlEe-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+                </eAnnotations>
+                <eGenericType xmi:type="ecore:EGenericType" xmi:id="_mRqGoPYlEe-fe4Bxe4fP7w">
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_mRqGofYlEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_mRqGovYlEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+                </eGenericType>
+              </eParameters>
+            </eOperations>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mRqGo_YlEe-fe4Bxe4fP7w" name="armed" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mRqGpfYlEe-fe4Bxe4fP7w" name="alarmedTriggered" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mRqGp_YlEe-fe4Bxe4fP7w" name="alarmResponseTime" ordered="false" lowerBound="1" defaultValueLiteral="50">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mRqGqfYlEe-fe4Bxe4fP7w" name="isLocked" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mRqGq_YlEe-fe4Bxe4fP7w" name="base_Class" ordered="false">
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+            </eStructuralFeatures>
+          </eClassifiers>
+        </contents>
+        <contents xmi:type="ecore:EPackage" xmi:id="_WrwvwPYlEe-fe4Bxe4fP7w" name="SecurityProfile" nsURI="http://SmartHomeSystem.Profile/schemas/SecurityProfile/_WrwIsPYlEe-fe4Bxe4fP7w/4" nsPrefix="SecurityProfile">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WrwvwfYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WrwvwvYlEe-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Wr1BMfYlEe-fe4Bxe4fP7w" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr1BMvYlEe-fe4Bxe4fP7w" key="Version" value="0.0.18"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr1BM_YlEe-fe4Bxe4fP7w" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr1BNPYlEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr1BNfYlEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr1BNvYlEe-fe4Bxe4fP7w" key="Author" value=""/>
+          </eAnnotations>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_Wrwvw_YlEe-fe4Bxe4fP7w" name="SecuritySystem">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WrwvxPYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+            <eOperations xmi:type="ecore:EOperation" xmi:id="_WrwvxfYlEe-fe4Bxe4fP7w" name="ValidAlarmTimeConstraint">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WrwvxvYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wrwvx_YlEe-fe4Bxe4fP7w" key="body" value="self.alarmResponseTime > 0"/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_WrwvyfYlEe-fe4Bxe4fP7w" name="diagnostics">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WrwvyvYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wrwvy_YlEe-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+                </eAnnotations>
+                <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+              </eParameters>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_WrwvzfYlEe-fe4Bxe4fP7w" name="context">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WrwvzvYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wrwvz_YlEe-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+                </eAnnotations>
+                <eGenericType xmi:type="ecore:EGenericType" xmi:id="_Wrwv0PYlEe-fe4Bxe4fP7w">
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_Wrwv0fYlEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_Wrwv0vYlEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+                </eGenericType>
+              </eParameters>
+            </eOperations>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Wrwv0_YlEe-fe4Bxe4fP7w" name="armed" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Wrwv1fYlEe-fe4Bxe4fP7w" name="alarmedTriggered" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Wrwv1_YlEe-fe4Bxe4fP7w" name="alarmResponseTime" ordered="false" lowerBound="1" defaultValueLiteral="50">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Wrwv2fYlEe-fe4Bxe4fP7w" name="isLocked" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Wrwv2_YlEe-fe4Bxe4fP7w" name="base_Class" ordered="false">
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+            </eStructuralFeatures>
+          </eClassifiers>
+        </contents>
+        <contents xmi:type="ecore:EPackage" xmi:id="_ttYGsPYkEe-fe4Bxe4fP7w" name="SecurityProfile" nsURI="http://SmartHomeSystem.Profile/schemas/SecurityProfile/_ttWRgPYkEe-fe4Bxe4fP7w/3" nsPrefix="SecurityProfile">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ttYGsfYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttYGsvYkEe-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ttbxEPYkEe-fe4Bxe4fP7w" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttbxEfYkEe-fe4Bxe4fP7w" key="Version" value="0.0.17"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttbxEvYkEe-fe4Bxe4fP7w" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttbxE_YkEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttbxFPYkEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttbxFfYkEe-fe4Bxe4fP7w" key="Author" value=""/>
+          </eAnnotations>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_ttYGs_YkEe-fe4Bxe4fP7w" name="SecuritySystem">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ttYGtPYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+            <eOperations xmi:type="ecore:EOperation" xmi:id="_ttYGtfYkEe-fe4Bxe4fP7w" name="ValidAlarmTimeConstraint">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ttYGtvYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttYGt_YkEe-fe4Bxe4fP7w" key="body" value="self.alarmResponseTime > 0"/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_ttYGufYkEe-fe4Bxe4fP7w" name="diagnostics">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ttYGuvYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttYGu_YkEe-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+                </eAnnotations>
+                <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+              </eParameters>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_ttYGvfYkEe-fe4Bxe4fP7w" name="context">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ttYGvvYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttYGv_YkEe-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+                </eAnnotations>
+                <eGenericType xmi:type="ecore:EGenericType" xmi:id="_ttYGwPYkEe-fe4Bxe4fP7w">
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_ttYGwfYkEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_ttYGwvYkEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+                </eGenericType>
+              </eParameters>
+            </eOperations>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ttYGw_YkEe-fe4Bxe4fP7w" name="armed" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ttYGxfYkEe-fe4Bxe4fP7w" name="alarmedTriggered" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ttYGx_YkEe-fe4Bxe4fP7w" name="alarmResponseTime" ordered="false" lowerBound="1" defaultValueLiteral="50">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ttYGyfYkEe-fe4Bxe4fP7w" name="isLocked" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ttYGy_YkEe-fe4Bxe4fP7w" name="base_Class" ordered="false">
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+            </eStructuralFeatures>
+          </eClassifiers>
+        </contents>
+        <contents xmi:type="ecore:EPackage" xmi:id="_n2YeIPYkEe-fe4Bxe4fP7w" name="SecurityProfile" nsURI="http://SmartHomeSystem.Profile/schemas/SecurityProfile/_n2XQAPYkEe-fe4Bxe4fP7w/2" nsPrefix="SecurityProfile">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n2YeIfYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2YeIvYkEe-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n2fL0PYkEe-fe4Bxe4fP7w" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2fL0fYkEe-fe4Bxe4fP7w" key="Version" value="0.0.16"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2fL0vYkEe-fe4Bxe4fP7w" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2fL0_YkEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2fL1PYkEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2fL1fYkEe-fe4Bxe4fP7w" key="Author" value=""/>
+          </eAnnotations>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_n2YeI_YkEe-fe4Bxe4fP7w" name="SecuritySystem">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n2YeJPYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+            <eOperations xmi:type="ecore:EOperation" xmi:id="_n2YeJfYkEe-fe4Bxe4fP7w" name="ValidAlarmTimeConstraint">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n2YeJvYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2YeJ_YkEe-fe4Bxe4fP7w" key="body" value="self.alarmResponseTime > 0"/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_n2YeKfYkEe-fe4Bxe4fP7w" name="diagnostics">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n2YeKvYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2YeK_YkEe-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+                </eAnnotations>
+                <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+              </eParameters>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_n2YeLfYkEe-fe4Bxe4fP7w" name="context">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n2YeLvYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2YeL_YkEe-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+                </eAnnotations>
+                <eGenericType xmi:type="ecore:EGenericType" xmi:id="_n2YeMPYkEe-fe4Bxe4fP7w">
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_n2YeMfYkEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_n2YeMvYkEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+                </eGenericType>
+              </eParameters>
+            </eOperations>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n2YeM_YkEe-fe4Bxe4fP7w" name="armed" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n2YeNfYkEe-fe4Bxe4fP7w" name="alarmedTriggered" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n2YeN_YkEe-fe4Bxe4fP7w" name="alarmResponseTime" ordered="false" lowerBound="1" defaultValueLiteral="50">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n2YeOfYkEe-fe4Bxe4fP7w" name="isLocked" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n2YeO_YkEe-fe4Bxe4fP7w" name="base_Class" ordered="false">
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+            </eStructuralFeatures>
+          </eClassifiers>
+        </contents>
+        <contents xmi:type="ecore:EPackage" xmi:id="_n881oPYjEe-fe4Bxe4fP7w" name="SecurityProfile" nsURI="http://SmartHomeSystem.Profile/schemas/SecurityProfile/_n88OkPYjEe-fe4Bxe4fP7w/1" nsPrefix="SecurityProfile">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n881ofYjEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n881ovYjEe-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n8_48PYjEe-fe4Bxe4fP7w" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n8_48fYjEe-fe4Bxe4fP7w" key="Version" value="0.0.15"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n8_48vYjEe-fe4Bxe4fP7w" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n8_48_YjEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n8_49PYjEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n8_49fYjEe-fe4Bxe4fP7w" key="Author" value=""/>
+          </eAnnotations>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_n881o_YjEe-fe4Bxe4fP7w" name="SecuritySystem">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n881pPYjEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+            <eOperations xmi:type="ecore:EOperation" xmi:id="_n881pfYjEe-fe4Bxe4fP7w" name="ValidAlarmTimeConstraint">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n881pvYjEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n881p_YjEe-fe4Bxe4fP7w" key="body" value="self.alarmResponseTime > 0"/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_n881qfYjEe-fe4Bxe4fP7w" name="diagnostics">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n881qvYjEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n881q_YjEe-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+                </eAnnotations>
+                <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+              </eParameters>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_n881rfYjEe-fe4Bxe4fP7w" name="context">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n881rvYjEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n881r_YjEe-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+                </eAnnotations>
+                <eGenericType xmi:type="ecore:EGenericType" xmi:id="_n881sPYjEe-fe4Bxe4fP7w">
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_n881sfYjEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_n881svYjEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+                </eGenericType>
+              </eParameters>
+            </eOperations>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n881s_YjEe-fe4Bxe4fP7w" name="armed" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n881tfYjEe-fe4Bxe4fP7w" name="alarmedTriggered" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n881t_YjEe-fe4Bxe4fP7w" name="alarmResponseTime" ordered="false" lowerBound="1" defaultValueLiteral="50">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n881ufYjEe-fe4Bxe4fP7w" name="isLocked" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n881u_YjEe-fe4Bxe4fP7w" name="base_Class" ordered="false">
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+            </eStructuralFeatures>
+          </eClassifiers>
+        </contents>
+        <contents xmi:type="ecore:EPackage" xmi:id="_c0ukAPYjEe-fe4Bxe4fP7w" name="SecurityProfile" nsURI="http://SmartHomeSystem.Profile/schemas/SecurityProfile/_c0q5oPYjEe-fe4Bxe4fP7w/0" nsPrefix="SecurityProfile">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c0ukAfYjEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0ukAvYjEe-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c0xAQPYjEe-fe4Bxe4fP7w" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0xAQfYjEe-fe4Bxe4fP7w" key="Version" value="0.0.14"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0xAQvYjEe-fe4Bxe4fP7w" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0xAQ_YjEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0xARPYjEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0xARfYjEe-fe4Bxe4fP7w" key="Author" value=""/>
+          </eAnnotations>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_c0ukA_YjEe-fe4Bxe4fP7w" name="SecuritySystem">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c0ukBPYjEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hq3tAPX2Ee-ZZ4wHMajqng"/>
+            <eOperations xmi:type="ecore:EOperation" xmi:id="_c0ukBfYjEe-fe4Bxe4fP7w" name="ValidAlarmTimeConstraint">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c0ukBvYjEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0ukB_YjEe-fe4Bxe4fP7w" key="body" value="self.alarmResponseTime > 0"/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_c0ukCfYjEe-fe4Bxe4fP7w" name="diagnostics">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c0ukCvYjEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0ukC_YjEe-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+                </eAnnotations>
+                <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+              </eParameters>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_c0ukDfYjEe-fe4Bxe4fP7w" name="context">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c0ukDvYjEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0ukD_YjEe-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+                </eAnnotations>
+                <eGenericType xmi:type="ecore:EGenericType" xmi:id="_c0ukEPYjEe-fe4Bxe4fP7w">
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_c0ukEfYjEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_c0ukEvYjEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+                </eGenericType>
+              </eParameters>
+            </eOperations>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_c0ukE_YjEe-fe4Bxe4fP7w" name="armed" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_c0ukFfYjEe-fe4Bxe4fP7w" name="alarmedTriggered" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_c0ukF_YjEe-fe4Bxe4fP7w" name="alarmResponseTime" ordered="false" lowerBound="1" defaultValueLiteral="50">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_c0ukGfYjEe-fe4Bxe4fP7w" name="isLocked" ordered="false" lowerBound="1" defaultValueLiteral="false">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_c0ukG_YjEe-fe4Bxe4fP7w" name="base_Class" ordered="false">
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+            </eStructuralFeatures>
+          </eClassifiers>
+        </contents>
+      </eAnnotations>
+      <elementImport xmi:type="uml:ElementImport" xmi:id="_D_Nb8PYjEe-fe4Bxe4fP7w" alias="Class">
+        <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </elementImport>
+      <packagedElement xmi:type="uml:Stereotype" xmi:id="_hq3tAPX2Ee-ZZ4wHMajqng" name="SecuritySystem">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_37ZIwPX2Ee-ZZ4wHMajqng" name="ValidAlarmTimeConstraint">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_37iSsPX2Ee-ZZ4wHMajqng" name="TempCheckSpec">
+            <language>OCL</language>
+            <body>self.alarmResponseTime > 0</body>
+          </specification>
+        </ownedRule>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_skQRYPX2Ee-ZZ4wHMajqng" name="armed">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_UnxmIPYiEe-fe4Bxe4fP7w" name="ARMED_VALUE"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_yyTvEPX2Ee-ZZ4wHMajqng" name="alarmedTriggered">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_npVykPYiEe-fe4Bxe4fP7w" name="TRIGGERED_VALUE"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_yZ0SkPYiEe-fe4Bxe4fP7w" name="alarmResponseTime">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_yZ0SkfYiEe-fe4Bxe4fP7w" name="TIME_VALUE" value="50"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_64quMPYiEe-fe4Bxe4fP7w" name="isLocked">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_64quMfYiEe-fe4Bxe4fP7w" name="LOCKED_VALUE"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_HIBnAPYjEe-fe4Bxe4fP7w" name="base_Class" association="_HHgpoPYjEe-fe4Bxe4fP7w">
+          <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HIBnAfYjEe-fe4Bxe4fP7w"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Extension" xmi:id="_HHgpoPYjEe-fe4Bxe4fP7w" name="E_SecuritySystem_Class3" memberEnd="_HH6SQPYjEe-fe4Bxe4fP7w _HIBnAPYjEe-fe4Bxe4fP7w">
+        <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_HH6SQPYjEe-fe4Bxe4fP7w" name="extension_SecuritySystem" type="_hq3tAPX2Ee-ZZ4wHMajqng" aggregation="composite" association="_HHgpoPYjEe-fe4Bxe4fP7w"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Profile" xmi:id="_4PpoEPYjEe-fe4Bxe4fP7w" name="LightingProfile" metaclassReference="_WMcL8PYkEe-fe4Bxe4fP7w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n2ZsQfYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <contents xmi:type="ecore:EPackage" xmi:id="_l4jNkfYmEe-Y0MiFV4xAmA" name="LightingProfile" nsURI="http://SmartHomeSystem.Profile/schemas/LightingProfile/_l4jNkPYmEe-Y0MiFV4xAmA/4" nsPrefix="LightingProfile">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4jNkvYmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/emf/2002/Ecore">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4jNk_YmEe-Y0MiFV4xAmA" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4rJYPYmEe-Y0MiFV4xAmA" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4rJYfYmEe-Y0MiFV4xAmA" key="Version" value="0.0.20"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4rJYvYmEe-Y0MiFV4xAmA" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4rJY_YmEe-Y0MiFV4xAmA" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4rJZPYmEe-Y0MiFV4xAmA" key="Date" value="2025-02-28"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4rJZfYmEe-Y0MiFV4xAmA" key="Author" value=""/>
+          </eAnnotations>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_l4jNlPYmEe-Y0MiFV4xAmA" name="LightingSystem">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4jNlfYmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8HgDYPYjEe-fe4Bxe4fP7w"/>
+            <eOperations xmi:type="ecore:EOperation" xmi:id="_l4jNlvYmEe-Y0MiFV4xAmA" name="ValidShutOffTimeConstraint">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4jNl_YmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4jNmPYmEe-Y0MiFV4xAmA" key="body" value="self.autoShutOffTime > 0"/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_l4jNmvYmEe-Y0MiFV4xAmA" name="diagnostics">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4jNm_YmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4jNnPYmEe-Y0MiFV4xAmA" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+                </eAnnotations>
+                <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+              </eParameters>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_l4jNnvYmEe-Y0MiFV4xAmA" name="context">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4jNn_YmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4jNoPYmEe-Y0MiFV4xAmA" key="documentation" value="The cache of context-specific information."/>
+                </eAnnotations>
+                <eGenericType xmi:type="ecore:EGenericType" xmi:id="_l4jNofYmEe-Y0MiFV4xAmA">
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_l4jNovYmEe-Y0MiFV4xAmA">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_l4jNo_YmEe-Y0MiFV4xAmA">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+                </eGenericType>
+              </eParameters>
+            </eOperations>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_l4jNpPYmEe-Y0MiFV4xAmA" name="autoShutOffTime" ordered="false" lowerBound="1" defaultValueLiteral="50">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_l4jNpvYmEe-Y0MiFV4xAmA" name="base_Class" ordered="false">
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+            </eStructuralFeatures>
+          </eClassifiers>
+        </contents>
+        <contents xmi:type="ecore:EPackage" xmi:id="_mRrUsfYlEe-fe4Bxe4fP7w" name="LightingProfile" nsURI="http://SmartHomeSystem.Profile/schemas/LightingProfile/_mRrUsPYlEe-fe4Bxe4fP7w/3" nsPrefix="LightingProfile">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRrUsvYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRrUs_YlEe-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRtJ4fYlEe-fe4Bxe4fP7w" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRtJ4vYlEe-fe4Bxe4fP7w" key="Version" value="0.0.19"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRtJ4_YlEe-fe4Bxe4fP7w" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRtJ5PYlEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRtJ5fYlEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRtJ5vYlEe-fe4Bxe4fP7w" key="Author" value=""/>
+          </eAnnotations>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_mRrUtPYlEe-fe4Bxe4fP7w" name="LightingSystem">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRrUtfYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8HgDYPYjEe-fe4Bxe4fP7w"/>
+            <eOperations xmi:type="ecore:EOperation" xmi:id="_mRrUtvYlEe-fe4Bxe4fP7w" name="ValidShutOffTimeConstraint">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRrUt_YlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRrUuPYlEe-fe4Bxe4fP7w" key="body" value="self.autoShutOffTime > 0"/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_mRrUuvYlEe-fe4Bxe4fP7w" name="diagnostics">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRrUu_YlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRrUvPYlEe-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+                </eAnnotations>
+                <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+              </eParameters>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_mRrUvvYlEe-fe4Bxe4fP7w" name="context">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRrUv_YlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRrUwPYlEe-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+                </eAnnotations>
+                <eGenericType xmi:type="ecore:EGenericType" xmi:id="_mRrUwfYlEe-fe4Bxe4fP7w">
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_mRrUwvYlEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_mRrUw_YlEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+                </eGenericType>
+              </eParameters>
+            </eOperations>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mRrUxPYlEe-fe4Bxe4fP7w" name="autoShutOffTime" ordered="false" lowerBound="1" defaultValueLiteral="50">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mRrUxvYlEe-fe4Bxe4fP7w" name="base_Class" ordered="false">
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+            </eStructuralFeatures>
+          </eClassifiers>
+        </contents>
+        <contents xmi:type="ecore:EPackage" xmi:id="_WrzMAfYlEe-fe4Bxe4fP7w" name="LightingProfile" nsURI="http://SmartHomeSystem.Profile/schemas/LightingProfile/_WrzMAPYlEe-fe4Bxe4fP7w/2" nsPrefix="LightingProfile">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WrzMAvYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WrzMA_YlEe-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Wr1BOPYlEe-fe4Bxe4fP7w" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr1BOfYlEe-fe4Bxe4fP7w" key="Version" value="0.0.18"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr1BOvYlEe-fe4Bxe4fP7w" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr1BO_YlEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr1BPPYlEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr1BPfYlEe-fe4Bxe4fP7w" key="Author" value=""/>
+          </eAnnotations>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_WrzMBPYlEe-fe4Bxe4fP7w" name="LightingSystem">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WrzMBfYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8HgDYPYjEe-fe4Bxe4fP7w"/>
+            <eOperations xmi:type="ecore:EOperation" xmi:id="_WrzMBvYlEe-fe4Bxe4fP7w" name="ValidShutOffTimeConstraint">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WrzMB_YlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WrzMCPYlEe-fe4Bxe4fP7w" key="body" value="self.autoShutOffTime > 0"/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_WrzMCvYlEe-fe4Bxe4fP7w" name="diagnostics">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WrzMC_YlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WrzMDPYlEe-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+                </eAnnotations>
+                <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+              </eParameters>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_WrzMDvYlEe-fe4Bxe4fP7w" name="context">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WrzMD_YlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WrzMEPYlEe-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+                </eAnnotations>
+                <eGenericType xmi:type="ecore:EGenericType" xmi:id="_WrzMEfYlEe-fe4Bxe4fP7w">
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_WrzMEvYlEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_WrzME_YlEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+                </eGenericType>
+              </eParameters>
+            </eOperations>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_WrzMFPYlEe-fe4Bxe4fP7w" name="autoShutOffTime" ordered="false" lowerBound="1" defaultValueLiteral="50">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WrzMFvYlEe-fe4Bxe4fP7w" name="base_Class" ordered="false">
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+            </eStructuralFeatures>
+          </eClassifiers>
+        </contents>
+        <contents xmi:type="ecore:EPackage" xmi:id="_ttZU0fYkEe-fe4Bxe4fP7w" name="LightingProfile" nsURI="http://SmartHomeSystem.Profile/schemas/LightingProfile/_ttZU0PYkEe-fe4Bxe4fP7w/1" nsPrefix="LightingProfile">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ttZU0vYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttZU0_YkEe-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ttcYIfYkEe-fe4Bxe4fP7w" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttcYIvYkEe-fe4Bxe4fP7w" key="Version" value="0.0.17"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttcYI_YkEe-fe4Bxe4fP7w" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttcYJPYkEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttcYJfYkEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttcYJvYkEe-fe4Bxe4fP7w" key="Author" value=""/>
+          </eAnnotations>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_ttZU1PYkEe-fe4Bxe4fP7w" name="LightingSystem">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ttZU1fYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8HgDYPYjEe-fe4Bxe4fP7w"/>
+            <eOperations xmi:type="ecore:EOperation" xmi:id="_ttZU1vYkEe-fe4Bxe4fP7w" name="ValidShutOffTimeConstraint">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ttZU1_YkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttZU2PYkEe-fe4Bxe4fP7w" key="body" value="self.autoShutOffTime > 0"/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_ttZU2vYkEe-fe4Bxe4fP7w" name="diagnostics">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ttZU2_YkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttZU3PYkEe-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+                </eAnnotations>
+                <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+              </eParameters>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_ttZU3vYkEe-fe4Bxe4fP7w" name="context">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ttZU3_YkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ttZU4PYkEe-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+                </eAnnotations>
+                <eGenericType xmi:type="ecore:EGenericType" xmi:id="_ttZU4fYkEe-fe4Bxe4fP7w">
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_ttZU4vYkEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_ttZU4_YkEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+                </eGenericType>
+              </eParameters>
+            </eOperations>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ttZU5PYkEe-fe4Bxe4fP7w" name="autoShutOffTime" ordered="false" lowerBound="1" defaultValueLiteral="50">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ttZU5vYkEe-fe4Bxe4fP7w" name="base_Class" ordered="false">
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+            </eStructuralFeatures>
+          </eClassifiers>
+        </contents>
+        <contents xmi:type="ecore:EPackage" xmi:id="_n2dWoPYkEe-fe4Bxe4fP7w" name="LightingProfile" nsURI="http://SmartHomeSystem.Profile/schemas/LightingProfile/_n2ZsQPYkEe-fe4Bxe4fP7w/0" nsPrefix="LightingProfile">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n2dWofYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2dWovYkEe-fe4Bxe4fP7w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n2fy4fYkEe-fe4Bxe4fP7w" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2fy4vYkEe-fe4Bxe4fP7w" key="Version" value="0.0.16"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2fy4_YkEe-fe4Bxe4fP7w" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2fy5PYkEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2fy5fYkEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2fy5vYkEe-fe4Bxe4fP7w" key="Author" value=""/>
+          </eAnnotations>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_n2dWo_YkEe-fe4Bxe4fP7w" name="LightingSystem">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n2dWpPYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8HgDYPYjEe-fe4Bxe4fP7w"/>
+            <eOperations xmi:type="ecore:EOperation" xmi:id="_n2dWpfYkEe-fe4Bxe4fP7w" name="ValidShutOffTimeConstraint">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n2dWpvYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2dWp_YkEe-fe4Bxe4fP7w" key="body" value="self.autoShutOffTime > 0"/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_n2dWqfYkEe-fe4Bxe4fP7w" name="diagnostics">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n2dWqvYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2dWq_YkEe-fe4Bxe4fP7w" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+                </eAnnotations>
+                <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+              </eParameters>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_n2dWrfYkEe-fe4Bxe4fP7w" name="context">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n2dWrvYkEe-fe4Bxe4fP7w" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n2dWr_YkEe-fe4Bxe4fP7w" key="documentation" value="The cache of context-specific information."/>
+                </eAnnotations>
+                <eGenericType xmi:type="ecore:EGenericType" xmi:id="_n2dWsPYkEe-fe4Bxe4fP7w">
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_n2dWsfYkEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_n2dWsvYkEe-fe4Bxe4fP7w">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+                </eGenericType>
+              </eParameters>
+            </eOperations>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n2dWs_YkEe-fe4Bxe4fP7w" name="autoShutOffTime" ordered="false" lowerBound="1" defaultValueLiteral="50">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n2dWtfYkEe-fe4Bxe4fP7w" name="base_Class" ordered="false">
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+            </eStructuralFeatures>
+          </eClassifiers>
+        </contents>
+      </eAnnotations>
+      <elementImport xmi:type="uml:ElementImport" xmi:id="_WMcL8PYkEe-fe4Bxe4fP7w" alias="Class">
+        <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </elementImport>
+      <packagedElement xmi:type="uml:Stereotype" xmi:id="_8HgDYPYjEe-fe4Bxe4fP7w" name="LightingSystem">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_eOU-wPYkEe-fe4Bxe4fP7w" name="ValidShutOffTimeConstraint">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_eOsyMPYkEe-fe4Bxe4fP7w" name="constraintSpec">
+            <language>OCL</language>
+            <body>self.autoShutOffTime > 0</body>
+          </specification>
+        </ownedRule>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_I7R34PYkEe-fe4Bxe4fP7w" name="autoShutOffTime">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_I7TGAPYkEe-fe4Bxe4fP7w" name="TIME_VALUE" value="50"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_XkwpwPYkEe-fe4Bxe4fP7w" name="base_Class" association="_XkPsYPYkEe-fe4Bxe4fP7w">
+          <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XkwpwfYkEe-fe4Bxe4fP7w"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Extension" xmi:id="_XkPsYPYkEe-fe4Bxe4fP7w" name="E_LightingSystem_Class3" memberEnd="_XkpVAPYkEe-fe4Bxe4fP7w _XkwpwPYkEe-fe4Bxe4fP7w">
+        <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_XkpVAPYkEe-fe4Bxe4fP7w" name="extension_LightingSystem" type="_8HgDYPYjEe-fe4Bxe4fP7w" aggregation="composite" association="_XkPsYPYkEe-fe4Bxe4fP7w"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Profile" xmi:id="_vGB7sPYkEe-fe4Bxe4fP7w" name="HVACProfile" metaclassReference="_AzyW4PYlEe-fe4Bxe4fP7w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WrzzEfYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <contents xmi:type="ecore:EPackage" xmi:id="_l4lp0PYmEe-Y0MiFV4xAmA" name="HVACProfile" nsURI="http://SmartHomeSystem.Profile/schemas/HVACProfile/_l4lCwPYmEe-Y0MiFV4xAmA/2" nsPrefix="HVACProfile">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4lp0fYmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/emf/2002/Ecore">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4lp0vYmEe-Y0MiFV4xAmA" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4rwcPYmEe-Y0MiFV4xAmA" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4rwcfYmEe-Y0MiFV4xAmA" key="Version" value="0.0.20"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4rwcvYmEe-Y0MiFV4xAmA" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4rwc_YmEe-Y0MiFV4xAmA" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4rwdPYmEe-Y0MiFV4xAmA" key="Date" value="2025-02-28"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4rwdfYmEe-Y0MiFV4xAmA" key="Author" value=""/>
+          </eAnnotations>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_l4lp0_YmEe-Y0MiFV4xAmA" name="HVACSystem">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4lp1PYmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2fv7QPYkEe-fe4Bxe4fP7w"/>
+            <eOperations xmi:type="ecore:EOperation" xmi:id="_l4lp1fYmEe-Y0MiFV4xAmA" name="ValidTempRangeConstraint">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4lp1vYmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4lp1_YmEe-Y0MiFV4xAmA" key="body" value="self.currentTemp >= -50 &#xA;and &#xA;self.currentTemp &lt;= 50"/>
+              </eAnnotations>
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_l4lp2fYmEe-Y0MiFV4xAmA" name="diagnostics">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4lp2vYmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4lp2_YmEe-Y0MiFV4xAmA" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+                </eAnnotations>
+                <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+              </eParameters>
+              <eParameters xmi:type="ecore:EParameter" xmi:id="_l4lp3fYmEe-Y0MiFV4xAmA" name="context">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4lp3vYmEe-Y0MiFV4xAmA" source="http://www.eclipse.org/emf/2002/GenModel">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4lp3_YmEe-Y0MiFV4xAmA" key="documentation" value="The cache of context-specific information."/>
+                </eAnnotations>
+                <eGenericType xmi:type="ecore:EGenericType" xmi:id="_l4lp4PYmEe-Y0MiFV4xAmA">
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_l4lp4fYmEe-Y0MiFV4xAmA">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_l4lp4vYmEe-Y0MiFV4xAmA">
+                    <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                  <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+                </eGenericType>
+              </eParameters>
+            </eOperations>
+            <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_l4lp4_YmEe-Y0MiFV4xAmA" name="base_Class" ordered="false">
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_l4lp5fYmEe-Y0MiFV4xAmA" name="currentTemp" ordered="false" lowerBound="1" defaultValueLiteral="27">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_l4lp5_YmEe-Y0MiFV4xAmA" name="desiredTemp" ordered="false" lowerBound="1" defaultValueLiteral="30">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_l4lp6fYmEe-Y0MiFV4xAmA" name="fanSpeed" ordered="false" lowerBound="1" defaultValueLiteral="40">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eStructuralFeatures>
+          </eClassifiers>
+        </contents>
+        <contents xmi:type="ecore:EPackage" xmi:id="_mRr7wfYlEe-fe4Bxe4fP7w" name="HVACProfile" nsURI="http://SmartHomeSystem.Profile/schemas/HVACProfile/_mRr7wPYlEe-fe4Bxe4fP7w/1" nsPrefix="HVACProfile">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRtJ6PYlEe-fe4Bxe4fP7w" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRtJ6fYlEe-fe4Bxe4fP7w" key="Version" value="0.0.19"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRtJ6vYlEe-fe4Bxe4fP7w" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRtJ6_YlEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRtJ7PYlEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRtJ7fYlEe-fe4Bxe4fP7w" key="Author" value=""/>
+          </eAnnotations>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_mRr7wvYlEe-fe4Bxe4fP7w" name="HVACSystem">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRr7w_YlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2fv7QPYkEe-fe4Bxe4fP7w"/>
+            <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mRr7xPYlEe-fe4Bxe4fP7w" name="base_Class" ordered="false">
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+            </eStructuralFeatures>
+            <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mRr7xvYlEe-fe4Bxe4fP7w" name="_" ordered="false" lowerBound="1" defaultValueLiteral="0">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eStructuralFeatures>
+          </eClassifiers>
+        </contents>
+        <contents xmi:type="ecore:EPackage" xmi:id="_Wr0aIPYlEe-fe4Bxe4fP7w" name="HVACProfile" nsURI="http://SmartHomeSystem.Profile/schemas/HVACProfile/_WrzzEPYlEe-fe4Bxe4fP7w/0" nsPrefix="HVACProfile">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Wr1BP_YlEe-fe4Bxe4fP7w" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr1BQPYlEe-fe4Bxe4fP7w" key="Version" value="0.0.18"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr1BQfYlEe-fe4Bxe4fP7w" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr1BQvYlEe-fe4Bxe4fP7w" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr1BQ_YlEe-fe4Bxe4fP7w" key="Date" value="2025-02-28"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wr1BRPYlEe-fe4Bxe4fP7w" key="Author" value=""/>
+          </eAnnotations>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_Wr0aIfYlEe-fe4Bxe4fP7w" name="HVACSystem">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Wr0aIvYlEe-fe4Bxe4fP7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2fv7QPYkEe-fe4Bxe4fP7w"/>
+            <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Wr0aI_YlEe-fe4Bxe4fP7w" name="base_Class" ordered="false">
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+            </eStructuralFeatures>
+          </eClassifiers>
+        </contents>
+      </eAnnotations>
+      <elementImport xmi:type="uml:ElementImport" xmi:id="_AzyW4PYlEe-fe4Bxe4fP7w" alias="Class">
+        <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </elementImport>
+      <packagedElement xmi:type="uml:Stereotype" xmi:id="_2fv7QPYkEe-fe4Bxe4fP7w" name="HVACSystem">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_K4UhcPYmEe-Y0MiFV4xAmA" name="ValidTempRangeConstraint">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_K4aBAPYmEe-Y0MiFV4xAmA" name="constraintSpec">
+            <language>OCL</language>
+            <body>self.currentTemp >= -50 
+and 
+self.currentTemp &lt;= 50</body>
+          </specification>
+        </ownedRule>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CJMqoPYlEe-fe4Bxe4fP7w" name="base_Class" association="_CIuwkPYlEe-fe4Bxe4fP7w">
+          <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CJNRsPYlEe-fe4Bxe4fP7w"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_kEfEYPYlEe-fe4Bxe4fP7w" name="currentTemp">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_7BfysPYlEe-Y0MiFV4xAmA" name="TEMP_VALUE" value="27"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Ag6BsPYmEe-Y0MiFV4xAmA" name="desiredTemp">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_Ag6BsfYmEe-Y0MiFV4xAmA" name="TEMP_VALUE" value="30"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_G_JQcPYmEe-Y0MiFV4xAmA" name="fanSpeed">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_G_JQcfYmEe-Y0MiFV4xAmA" name="SPEED_VALUE" value="40"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Extension" xmi:id="_CIuwkPYlEe-fe4Bxe4fP7w" name="E_HVACSystem_Class3" memberEnd="_CJF88PYlEe-fe4Bxe4fP7w _CJMqoPYlEe-fe4Bxe4fP7w">
+        <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_CJF88PYlEe-fe4Bxe4fP7w" name="extension_HVACSystem" type="_2fv7QPYkEe-fe4Bxe4fP7w" aggregation="composite" association="_CIuwkPYlEe-fe4Bxe4fP7w"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Profile>
